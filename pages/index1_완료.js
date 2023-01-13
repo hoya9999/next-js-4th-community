@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import Layout from './components/Layout'
 
 export default function Home() {
-  console.log('index.js(Home)');
   return (
     <Layout>
       <div className='container'>

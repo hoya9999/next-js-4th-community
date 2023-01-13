@@ -7,7 +7,6 @@ import {useAtom} from 'jotai';
 import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
-    console.log('_app');
     // process.env.ALLUSERSPROFILE = 'C:\\ProgramData9999';  //기존 환경변수 값 수정
     // console.log('process.env1:', process.env.ALLUSERSPROFILE);      
     // console.log('process.env2:', process.env.school);
@@ -39,7 +38,6 @@ function MyApp({ Component, pageProps }) {
 
     return <>
           <Head>
-            <title>Codelab Community - _app.js</title>
             <link 
               href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" 
               rel="stylesheet"
